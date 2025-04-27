@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom du Jeu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(#0f0c29, #302b63, #24243e);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        .buttons {
+            margin: 30px 0;
+        }
+        .buttons a {
+            text-decoration: none;
+            background: #ff4b2b;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            margin: 10px;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background: #ff416c;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nom du Jeu</h1>
+        <p>Plongez dans une aventure épique comme jamais auparavant.</p>
+        <div class="buttons">
+            <a href="#">Jouer maintenant</a>
+            <a href="#">En savoir plus</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Graphismes Épiques</h2>
+            <p>Des paysages à couper le souffle avec des détails incroyables.</p>
+        </div>
+        <div class="feature">
+            <h2>Multijoueur</h2>
+            <p>Affrontez vos amis ou formez des alliances dans des combats intenses.</p>
+        </div>
+        <div class="feature">
+            <h2>Personnalisation Totale</h2>
+            <p>Créez votre héros unique avec des centaines d'options.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Nom du Jeu. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
